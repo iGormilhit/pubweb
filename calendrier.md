@@ -21,7 +21,7 @@ Imaginons 14 sessions :
 ## Session 1
 
    __Théorie__ : Introduction au cours, enjeux et histoire.
-   __Pratique__ : Présentation et téléchargement du framework et découverte des fichiers (structure logique et physique) et de la structure du HTML. Modifications de bases (langue, title, meta). Voir : [[session1.md|session 1]]
+   __Pratique__ : Présentation et téléchargement du framework et découverte des fichiers (structure logique et physique) et de la structure du HTML. Modifications de bases (langue, title, meta). Voir : [session 1](session1.md)
 
 ## Session 2
 
