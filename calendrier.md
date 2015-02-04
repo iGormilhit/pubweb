@@ -23,22 +23,28 @@ Nous disposons de 15 semaines :
 
    __Théorie__ : Introduction au cours, enjeux  du Web et théorie serveur.
 
-   __Pratique__ : Présentation et téléchargement du _framework_ CSS et découverte des fichiers (structure logique et physique) et de la structure du HTML. Modifications de bases (langue, title, meta). Voir le [programme](semaine1/programme.md) de la semaine 1.
+   __Pratique__ : Détaillé dans [sem01-programme](semaine01/sem01-programme.md-programme.md). Présentation et téléchargement du _framework_ CSS et découverte des fichiers (structure logique et physique). Outils : navigateur Web, navigateur de fichiers, éditeurs de texte. Serveur Web local. Édition basique de l'`index.html`.
 
 ## semaine 2
 
-   __Théorie__ : ...
+   __Théorie__ : Histoire du Web. Langage de balisage. Cahier des charges ? Sujets ?
 
-   __Pratique__ : Structure d'une page complète, simple et lien vers deuxième page.
+   __Pratique__ : Détaillé dans [sem02-programme](semaine02/sem02-programme.md). Compréhension de la structure d'`index.html`, adaptation de la locale et des `meta`. Création d'une page de base, avec un menu. Analyse plus détaillée des balises, placement des blocks. Notion de in-line. Insistance sur la documentation et la recherche d'information.
 
 ## semaine 3
 
    __Théorie__ : ...
 
-   __Pratique__ : Exploration du CSS et découverte de certaines fonctionnalités Skeleton comme les classes de colonnes, les _utilities_, les bouttons, etc.
+   __Pratique__ : Exploration du CSS et découverte de certaines fonctionnalités Skeleton comme les classes de colonnes, les _utilities_, les bouttons, etc. Mise en forme d'un menu déroulant.
 
 ## semaine 4
    
    __Théorie__ : ...
    
    __Pratique__ : Listes ordonnées, numérotées, tables, formulaires
+
+## semaine 5
+   
+   __Théorie__ : ...
+   
+   __Pratique__ : ... 
