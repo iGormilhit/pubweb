@@ -1,4 +1,4 @@
-# PubWeb | `v.0.0.1`
+# PubWeb
 
 Il s'agit de la préparation du cours de *Publication Web* donné à la [Haute école de gestion de Genève](http://hesge.ch/heg), aux étudiantEs du cursus de la filière *Information documentaire* (science de l'information), au semestre 2.
 
