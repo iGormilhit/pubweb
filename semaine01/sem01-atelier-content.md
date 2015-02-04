@@ -1,3 +1,10 @@
+---
+title: Contenu de l'atelier de la semaine 1
+author: iGor
+date: 2015-02-04
+---
+
+
 # Contenu de l'atelier de la semaine 1 | 2015-02-18
 
 ## Présentation framework | ? min.

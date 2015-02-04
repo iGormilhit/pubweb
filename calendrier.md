@@ -1,3 +1,9 @@
+---
+title: Calendrier du cours PubWeb 2015
+author: iGor
+date: 2015-02-02
+---
+
 # Calendrier 2015
 
 Nous disposons de 15 semaines :
@@ -23,7 +29,7 @@ Nous disposons de 15 semaines :
 
    __Théorie__ : Introduction au cours, enjeux  du Web et théorie serveur.
 
-   __Pratique__ : Détaillé dans [sem01-programme](semaine01/sem01-programme.md-programme.md). Présentation et téléchargement du _framework_ CSS et découverte des fichiers (structure logique et physique). Outils : navigateur Web, navigateur de fichiers, éditeurs de texte. Serveur Web local. Édition basique de l'`index.html`.
+   __Pratique__ : Détaillé dans [sem01-programme](semaine01/sem01-programme.md). Présentation et téléchargement du _framework_ CSS et découverte des fichiers (structure logique et physique). Outils : navigateur Web, navigateur de fichiers, éditeurs de texte. Serveur Web local. Édition basique de l'`index.html`.
 
 ## semaine 2
 
