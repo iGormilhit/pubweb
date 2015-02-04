@@ -3,7 +3,7 @@ title: Session 1 : Introduction et atelier
 author: iGor
 date: 2015-02-03
 tags: pubweb, framework, Skeleton, atelier, session 1 
-...
+---
 
 # Semaine 1 | 2015-02-18
 

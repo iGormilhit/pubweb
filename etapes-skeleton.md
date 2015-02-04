@@ -1,9 +1,9 @@
 ﻿---
-Title: Le 'framework' Skeleton'
-Author: iGor
-Date: 2015-02-03
-Tags: pubweb, framework, Skeleton, étapes
-...
+title: Le 'framework' Skeleton'
+author: iGor
+date: 2015-02-03
+tags: pubweb, framework, Skeleton, étapes
+---
 
 # Mise en place du Skeleton
 
