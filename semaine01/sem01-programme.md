@@ -1,8 +1,8 @@
 ---
-title: Session 1 : Introduction et atelier
+title: Programme de la semaine 1 
 author: iGor
 date: 2015-02-03
-tags: pubweb, framework, Skeleton, atelier, session 1 
+tags: pubweb, framework, Skeleton, atelier, session 1, programme 
 ---
 
 # Semaine 1 | 2015-02-18
