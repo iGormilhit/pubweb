@@ -54,15 +54,14 @@ Renommez selon vos désirs le dossier `Skeleton-2.0.4`, par exemple `mon-site`.
    3. Repérer les balises `<html> </html>`, `<head> </head>` et `<body> <body>`. Pour la session de la semaine 01, on ne travaille que dans le `<body>` (lignes 30 à 45).
    4. Supprimer les lignes 35 à 40.
    5. Sous la ligne 34, on insère le code qui suivant :
+      ```
+        	<h1>Mon premier titre</h1>
+	        <h2>Un titre de niveau 2</h2>
 
-```
-	<h1>Mon premier titre</h1>
-	<h2>Un titre de niveau 2</h2>
-
-	<p>Ici, nous pouvons écrire un paragraphe, par exemple.</p>
-	<p>Ajoutez un paragraphe un peu plus long au moyen d'un copier-coller.</p>
-```
-   6\. Enregistrer votre fichier `index.html` et recharcher la page Web correspondante.
+        	<p>Ici, nous pouvons écrire un paragraphe, par exemple.</p>
+	        <p>Ajoutez un paragraphe un peu plus long au moyen d'un copier-coller.</p>
+      ```
+   6. Enregistrer votre fichier `index.html` et recharcher la page Web correspondante.
 
 ## Utilisation du serveur Web local | 7 min.
 
