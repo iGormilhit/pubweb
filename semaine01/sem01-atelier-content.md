@@ -44,6 +44,7 @@ Renommez selon vos désirs le dossier `Skeleton-2.0.4`, par exemple `mon-site`.
    Les fichiers `.html` et `.css` sont des fichiers textes et peuvent s'ouvrir avec un éditeur de texte simple, comme le bloc-notes ou *TextEdit*, ou avec un éditeur plus complet comme *Notepad++*, *gedit* ou *geany*.
 
    **Remarque 1** : par défaut à l'école les fichiers `.html` et `.css` s'ouvrent avec *Dreamweaver*, un éditeur WYSIWYG que nous n'allons pas utiliser dans ce cours. Il faut d'abord faire un clic-droit sur ces fichiers pour configurer l'application par défaut pour l'ouverture de ces fichiers : *Notepad++* me semble un bon choix.
+
    **Remarque 2** : selon le type d'encodage utilisé (ISO 8859-1 ou utf-8), les lettres accentuées et les signes diacritiques ne sont pas rendus correctements par les navigateurs Web. Le plus simple est de paramétrer l'éditeur de texte (par exemple *Notepad++*), afin d'utiliser l'encodage `utf-8`. Une autre solution est d'écrire les caractères accentués, les caractères spéciaux et les signes diacritiques sous la forme d'[entités de caractères en HTML](https://fr.wikipedia.org/wiki/Liste_des_r%C3%A9f%C3%A9rences_d%27entit%C3%A9s_de_caract%C3%A8res_en_XML_et_HTML#R.C3.A9f.C3.A9rences_d.27entit.C3.A9s_de_caract.C3.A8res_en_HTML). Par exemple, le caractère "é" s'écrira `&eacute;`.
 
 ## Édition du fichier `index.html` | 10 min.
@@ -61,7 +62,7 @@ Renommez selon vos désirs le dossier `Skeleton-2.0.4`, par exemple `mon-site`.
 	<p>Ici, nous pouvons écrire un paragraphe, par exemple.</p>
 	<p>Ajoutez un paragraphe un peu plus long au moyen d'un copier-coller.</p>
 ```
-   6. Enregistrer votre fichier `index.html` et recharcher la page Web correspondante.
+   6\. Enregistrer votre fichier `index.html` et recharcher la page Web correspondante.
 
 ## Utilisation du serveur Web local | 7 min.
 
