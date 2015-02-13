@@ -4,10 +4,9 @@ author: iGor
 date: 2015-02-04
 ---
 
-
 # Contenu de l'atelier de la semaine 1 | 2015-02-18
 
-## Présentation framework | ? min.
+## Présentation framework | 5 min.
 
 Un *framework* est un ensemble de composants logiciels améliorant le développement, parfois spécialisé dans un langage particulier. Dans le contexte de la publication Web, on parle souvent de _framework_ CSS. Il en existe plusieurs catégories. Pour le cours, nous allons utiliser des versions simplifiées, dans lesquelles nous modifierons uniquement les fichiers `html` et `css`.
 
@@ -15,26 +14,31 @@ Le choix pour notre cours s'est porté sur [Skeleton](http://getskeleton.com/). 
 
 ## Téléchargement | 2 min.
 
-Source : https://github.com/dhg/Skeleton/archive/master.zip
+Source : [http://getskeleton.com](http://getskeleton.com), le bouton download.
 
-Enregistrez l'archive ZIP sur votre disque dur, dans un dossier de travail dans `Mes Documents`. Décompressez l'archive. Renommez selon vos désir le dossier `Skeleton-master`, par exemple `mon-site`. Vous devriez obtenir l'arborescence suivante :
+Enregistrez l'archive ZIP sur votre disque dur, dans un dossier de travail dans `Mes Documents`. Décompressez l'archive. Vous devriez obtenir l'arborescence suivante :
 
 ```
-├── Skeleton-master
-│   ├── bower.json
-│   ├── css
-│   │   ├── normalize.css
-│   │   └── skeleton.css
-│   ├── images
-│   │   └── favicon.png
-│   ├── index.html
-│   ├── LICENSE.md
-│   └── README.md
-└── Skeleton-master.zip
+Skeleton-2.0.4
+├── css
+│   ├── normalize.css
+│   └── skeleton.css
+├── images
+│   └── favicon.png
+└── index.html
 ```
+
+Renommez selon vos désirs le dossier `Skeleton-2.0.4`, par exemple `mon-site`.
+
 ## Découverte du contenu | 5 min.
 
-Les éléments importants à repérer : le fichier `html`, les dossiers `css/` et `images`. Le reste des fichiers (`bower.json`, `LICENSE.md`, `README.md`) nous intéresse moins, mais il n'est pas interdit de les ouvrir.
+   - Ouverture du dossier `mon-site` avec le navigateur de fichier.
+   - **Clic-droit** sur `index.html` et "ouvrir avec Firefox" et observation.
+   - Faire une copie du dossier `mon-site` dans `P:\config\wwwroot.xamp\` ; démarrer XAMP, le service Apache.
+   - Ouvrir l'URL `http://localhost:8005/mon-site` et observer les différences :
+      * Principalement la police de caractère.
+
+Les éléments importants à repérer : le fichier `html`, les dossiers `css/` et `images`.
 
 Les fichiers `.html` et `.css` sont des fichiers textes et peuvent s'ouvrir avec un éditeur de texte simple, comme le bloc-notes ou *TextEdit*, ou avec un éditeur plus complet comme *Notepad++*, *gedit* ou *geany*.
 
