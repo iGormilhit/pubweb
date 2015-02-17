@@ -2,7 +2,6 @@
 title: Session 2 : Théorie et atelier
 author: iGor
 date: 2015-02-04
-tags: pubweb, framework, Skeleton, atelier, session 2 
 ---
 
 # Semaine 1 | 2015-02-25
