@@ -12,11 +12,13 @@ Il s'agit dans ce document de lister les points qui *étaient* abordés dans les
 ## `html`
 
    * encodage `utf-8` et entités `html`
-   * les `<>`, balise ouvrante, fermante
+   * les `<>`, balise ouvrante, fermante, retours ligne, caractères insécables
    * `<html>`, `<head>`, `<body>`, `<header>`, `<footer>`, `<nav>`, `<section>`, `<article>`, `<aside>`
    * la déclaration
    * les commentaires
+   * les 3 types de liens : interne à une page, autre page, externe + notion de liens relatifs (syntaxe des chemins) et absolus
    * les `<meta>`, le `<title>`
+   * les `<img>`
    * les tables
    * les formulaires, méthode `GET`, `POST`, les zones de saisie, boutons radios, cases à cocher, champs de saisie long, liste déroulant, soummettre, effacer
 
