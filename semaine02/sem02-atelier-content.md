@@ -1,8 +1,7 @@
 ---
-title: Publication Web : semaine 1 
+title: Contenu de l'atelier de la semaine 2 
 author: iGor
 date: 2015-02-17
-tags: pubweb, Skeleton, atelier, session 2 
 ---
 
 # Contenu de l'atelier de la semaine 2 | 45 min.

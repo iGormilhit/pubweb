@@ -1,7 +1,8 @@
 ---
-title: Session 2 : Théorie et atelier
+title: Programme de la semaine 2
 author: iGor
 date: 2015-02-04
+tags: pubweb, atelier, session 2, programme 
 ---
 
 # Semaine 1 | 2015-02-25
