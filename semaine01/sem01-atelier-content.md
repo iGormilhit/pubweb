@@ -63,7 +63,7 @@ Renommez selon vos désirs le dossier `Skeleton-2.0.4`, par exemple `mon-site`.
       ```
    6. Enregistrer votre fichier `index.html` et recharcher la page Web correspondante.
 
-## Utilisation du serveur Web local | 7 min.
+## Utilisation du serveur Web local | 7 min. | éventuellement reporté pour marge
 
    1. Faire une copie du dossier `mon-site` dans `P:\config\wwwroot.xamp\` ; démarrer XAMP, le service Apache.
    2. Ouvrir l'URL `http://localhost:8005/mon-site` et observer les différences avec la page ouverte "directement", principalement la police de caractère. Voir la ligne 18 du fichier `index.html`.
