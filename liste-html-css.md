@@ -20,7 +20,7 @@ Il s'agit dans ce document de lister les points qui *étaient* abordés dans les
    * les `<meta>`, le `<title>`
    * les `<img>`
    * les tables
-   * les formulaires, méthode `GET`, `POST`, les zones de saisie, boutons radios, cases à cocher, champs de saisie long, liste déroulant, soummettre, effacer
+   * les formulaires, méthode `GET`, `POST`, les zones de saisie, boutons radios, cases à cocher, champs de saisie long, liste déroulant, soumettre, effacer
 
 ## `css`
 
@@ -36,4 +36,4 @@ Il s'agit dans ce document de lister les points qui *étaient* abordés dans les
 
 ## astuces
 
-   * les outils de dev de firefox
+   * les outils de dev de Firefox
