@@ -39,6 +39,8 @@ Renommez selon vos désirs le dossier `Skeleton-2.0.4`, par exemple `mon-site`.
 
    Les éléments importants à repérer : le fichier `html` (le contenu), les dossiers `css/` (contenant les fichiers `css` correspondant à la mise en forme) et `images`. Cette structure est la structure *physique*. On peut y ajouter tous les dossiers que l'on désire : `documents/`, par exemple.
 
+   La structure *physique* s'oppose à la structure *logique*, cette dernière correspondant à la structure visible par l'utilisateur du site Web. Les deux structures ne sont pas forcément symétriques.
+
 ## Comment éditer les fichiers `html` et `css` | 5 min.
 
    Les fichiers `.html` et `.css` sont des fichiers textes et peuvent s'ouvrir avec un éditeur de texte simple, comme le bloc-notes ou *TextEdit*, ou avec un éditeur plus complet comme *Notepad++*, *gedit* ou *geany*.
@@ -63,7 +65,11 @@ Renommez selon vos désirs le dossier `Skeleton-2.0.4`, par exemple `mon-site`.
       ```
    6. Enregistrer votre fichier `index.html` et recharcher la page Web correspondante.
 
-## Utilisation du serveur Web local | 7 min. | éventuellement reporté pour marge
+## Travail pour la semaine 02 | 2 min.
+
+   Ajouter du contenu dans le fichier `index.html` avec au moins trois paragraphes et une structure de titre (des `<h2>` et des `<h3>`, par exemple). On peut s'inspirer du point [9 de l'article *ufologie*](https://fr.wikipedia.org/wiki/Ufologie#Controverses_autour_des_observations_en_ufologie) de Wikipédia. Vous pouvez soit laisser tomber la liste à puce des *exemples d'ouvrages à sensation revisitant l'histoire*, soit cherchez comment utiliser les balises `<ul>` et `<li>`.
+
+## Utilisation du serveur Web local | 6 min. | éventuellement reporté pour marge
 
    1. Faire une copie du dossier `mon-site` dans `P:\config\wwwroot.xamp\` ; démarrer XAMP, le service Apache.
    2. Ouvrir l'URL `http://localhost:8005/mon-site` et observer les différences avec la page ouverte "directement", principalement la police de caractère. Voir la ligne 18 du fichier `index.html`.
