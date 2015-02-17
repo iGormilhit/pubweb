@@ -32,18 +32,18 @@ date: 2015-02-17
 
    Tout au sommet du contenu visible de la page `index.html`, à savoir tout de suite après la balise ouvrante du `body`, insérez l'en-tête suivant (que vous pouvez adapter librement) :
 
-	   ```
-	   <header>
-	   	<a href="/" title="Accueil"><img src="images/logo.svg" alt="Le logo du site est celui du HTML5"></a>
-		<h1>Mon magnifique site Web !</h1>
-		<h2>Ou comment j'ai appris à faire du Web.</h2>
-	</header>
-	```
+```
+<header>
+	<a href="/" title="Accueil"><img src="images/logo.svg" alt="Le logo du site est celui du HTML5"></a>
+	<h1>Mon magnifique site Web !</h1>
+	<h2>Ou comment j'ai appris à faire du Web.</h2>
+</header>
+```
 
 Puis insérez le pied de page, que vous pouvez également modifier librement, à la fin du contenu visible de cette même page, donc juste avant la balise fermante du corps principal, le `body` :
 
 ```
-	<footer>
-		<small>Ce site est sous licence <a href="http://copyheart.org/" title="Site de la licence Copyheart"><em>♡ Copyheart</em></a>.
-	</footer>
+<footer>
+	<small>Ce site est sous licence <a href="http://copyheart.org/" title="Site de la licence Copyheart"><em>♡ Copyheart</em></a>.
+</footer>
 ```
