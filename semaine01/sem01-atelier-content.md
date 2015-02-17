@@ -83,3 +83,7 @@ Renommez selon vos désirs le dossier `Skeleton-2.0.4`, par exemple `mon-site`.
    * Fonctionnement des balises : chevron, ouvrantes, fermantes, slash.
    * 3 balises de structures (`html`, `head`, `body`) et trois balises de contenu (`h1`, `h2` et `p`).
    * Accès via le serveur Web local
+
+# Corrigé
+
+   Le corrigé de l'atelier de la semaine 01 est accessible à l'URL suivante : [https://github.com/iGormilhit/pubweb-skeleton/archive/v.0.1.0.zip](https://github.com/iGormilhit/pubweb-skeleton/archive/v.0.1.0.zip).
