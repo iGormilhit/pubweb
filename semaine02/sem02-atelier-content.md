@@ -6,11 +6,6 @@ date: 2015-02-17
 
 # Contenu de l'atelier de la semaine 2 | 45 min.
 
-## Utilisation du serveur Web local | 7 min.
-
-   1. Faire une copie du dossier `mon-site` dans `P:\config\wwwroot.xamp\` ; démarrer XAMP, le service Apache.
-   2. Ouvrir l'URL `http://localhost:8005/mon-site` et observer les différences avec la page ouverte "directement", principalement la police de caractère. Voir la ligne 18 du fichier `index.html`.
-
 ## Correction du devoir de la semaine suivante | 5 min.
 
    Le corrigé est accessible à l'URL suivante : [https://github.com/iGormilhit/pubweb-skeleton/archive/v.0.1.5.zip](https://github.com/iGormilhit/pubweb-skeleton/archive/v.0.1.5.zip).
@@ -21,6 +16,11 @@ date: 2015-02-17
    En français, il est d'usage d'insérer des espaces insécables entre les guillemets. En `html`, il est nécessaire d'utiliser l'entité `&nbsp;` (pour *non breakable space*).
 
    Enfin, la liste à puce est réalisée avec la balise `<ul></ul>`, qui indique une liste non ordonnée (non numérotée). À l'intérieur de celle-ci, chaque élément de liste est indiqué par la balise `<li></li>`. Il est nécessaire de bien faire attention à l'imbrication !
+
+## Utilisation du serveur Web local | 7 min.
+
+   1. Faire une copie du dossier `mon-site` dans `P:\config\wwwroot.xamp\` ; démarrer XAMP, le service Apache.
+   2. Ouvrir l'URL `http://localhost:8005/mon-site` et observer les différences avec la page ouverte "directement", principalement la police de caractère. Voir la ligne 18 du fichier `index.html`.
 
 ## Modification de l'`index.html`.
 
