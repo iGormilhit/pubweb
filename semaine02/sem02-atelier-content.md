@@ -20,15 +20,33 @@ date: 2015-02-17
 ## Utilisation du serveur Web local | 7 min.
 
    1. Faire une copie du dossier `mon-site` dans `P:\config\wwwroot.xamp\` ; démarrer XAMP, le service Apache.
-   2. Ouvrir l'URL `http://localhost:8005/mon-site` et observer les différences avec la page ouverte "directement", principalement la police de caractère. Voir la ligne 18 du fichier `index.html`.
+   2. Ouvrir l'URL [`http://localhost:8005/mon-site`](http://localhost:8005/mon-site) et observer les différences avec la page ouverte "directement", principalement la police de caractère, ce qui correspond à la ligne 18 du fichier `index.html`.
 
 ## Modification de l'`index.html`.
 
-   Rappel de la structure générale de la page
+### Structure de base
 
+   Comme vu la semaine passée, une page `html` est toujours composée des parties principales suivantes :
+
+   * La déclaration : `<!DOCTYPE html>`. Elle est obligatoire.
+   * La balise `<html lang="fr"> ... </html>` contenant l'ensemble de la page `html`. Comme vous réalisez un site Web en français, nous pouvons changer la *valeur* de l'*attribut* `lang` de `en` (anglais) à `fr` (français).
+   * Le `<head> ... </head>`, qui contient les informations générales du documents (les métadonnées), ainsi que le titre de la page (qui se retrouve sur la barre de la fenêtre ou l'onglet du navigateur), et les liens vers les feuilles de styles (`css`)^[[https://developer.mozilla.org/fr/docs/Web/HTML/Element/head](https://developer.mozilla.org/fr/docs/Web/HTML/Element/head)].
+   * Le `<body> ... </body>`, dans lequel se trouve tout le contenu visible de la page Web.
+
+   Dans le `head`, modifiez les balises suivantes :
+
+   * `<title> ... </title> : donnez un titre à votre page Web.
+   * `<meta name="description" content="[La description de votre site Web]">`
+   * `<meta name="author" content="[Le nom de l'auteur du site Web"]>`
+
+   Toujours dans le `head` se trouvent les balises `<link rel="..." href="...">`. Ce sont des liens qui lient au document `html` d'autres ressources, comme par exemple des polices de caractères, l'image du *favicon* et les feuilles de styles `css` responsables de la mise en forme.
+
+   
 ### Le `header` et le `footer`
 
-   Il s'agit de l'en-tête et du pied de page de la page d'accueil. L'en-tête comprendra le plus souvent le titre principale du site Web, ainsi qu'en général son soustitre. Le menu (`<nav></nav>`) est souvent inséré dans cette partie, mais ce n'est pas une obligation.
+   Le `body` peut être structuré d'une manière assez libre. Le plus souvent pourtant, les sites Web proposent une structure assez classique, avec un en-tête et un pied de page commun à l'ensemble du site, et un contenu principal, qui change d'une page à l'autre.
+   
+   Depuis `html 5` existent les balises `header` et `footer` qui permettent de réaliser cela. L'en-tête comprendra le plus souvent le titre principale du site Web, ainsi qu'en général son soustitre. Le menu (`<nav></nav>`) est souvent inséré dans cette partie, mais ce n'est pas une obligation.
 
    Tout au sommet du contenu visible de la page `index.html`, à savoir tout de suite après la balise ouvrante du `body`, insérez l'en-tête suivant (que vous pouvez adapter librement) :
 
