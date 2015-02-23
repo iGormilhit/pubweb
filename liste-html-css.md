@@ -37,3 +37,13 @@ Il s'agit dans ce document de lister les points qui *étaient* abordés dans les
 ## astuces
 
    * les outils de dev de Firefox
+
+
+## en attente :
+
+   ## Utilisation du serveur Web local | 7 min.
+
+   1. Faire une copie du dossier `mon-site` dans `P:\config\wwwroot.xamp\` ; démarrer XAMP, le service Apache.
+   2. Ouvrir l'URL [`http://localhost:8005/mon-site`](http://localhost:8005/mon-site) et observer les différences avec la page ouverte "directement", principalement la police de caractère, ce qui correspond à la ligne 18 du fichier `index.html`.
+
+
