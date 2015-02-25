@@ -17,7 +17,7 @@ date: 2015-02-17
 
    Enfin, la liste à puce est réalisée avec la balise `<ul></ul>`, qui indique une liste non ordonnée (non numérotée). À l'intérieur de celle-ci, chaque élément de liste est indiqué par la balise `<li></li>`. Il est nécessaire de bien faire attention à l'imbrication !
 
-## Modification de l'`index.html`.
+## Modification de l'`index.html`
 
 ### Structure de base | 7 min.
 
@@ -25,12 +25,12 @@ date: 2015-02-17
 
    * La déclaration : `<!DOCTYPE html>`. Elle est obligatoire.
    * La balise `<html lang="fr"> ... </html>` contenant l'ensemble de la page `html`. Comme vous réalisez un site Web en français, vous pouvez changer la *valeur* de l'*attribut* `lang` de `en` (anglais) à `fr` (français).
-   * Le `<head> ... </head>`, qui contient les informations générales du documents (les métadonnées), ainsi que le titre de la page (qui se retrouve sur la barre de la fenêtre ou l'onglet du navigateur), et les liens vers les feuilles de styles (`css`)^[[https://developer.mozilla.org/fr/docs/Web/HTML/Element/head](https://developer.mozilla.org/fr/docs/Web/HTML/Element/head)].
+   * Le `<head> ... </head>`, qui contient les informations générales du document (les métadonnées), ainsi que le titre de la page (qui se retrouve sur la barre de la fenêtre ou l'onglet du navigateur), et les liens vers les feuilles de style (`css`)^[[https://developer.mozilla.org/fr/docs/Web/HTML/Element/head](https://developer.mozilla.org/fr/docs/Web/HTML/Element/head)].
    * Le `<body> ... </body>`, dans lequel se trouve tout le contenu visible de la page Web.
 
    Dans le `head`, modifiez les balises suivantes :
 
-   * `<title> ... </title>` : donnez un titre à votre page Web, et vérifier que les changements que vous apportez sont visibles.
+   * `<title> ... </title>` : donnez un titre à votre page Web, et vérifiez que les changements que vous apportez sont visibles.
    * `<meta name="description" content="[La description de votre site Web]">`.
    * `<meta name="author" content="[Le nom de l'auteur du site Web"]>`.
 
@@ -40,7 +40,7 @@ date: 2015-02-17
 
    Le `body` peut être structuré d'une manière assez libre. Le plus souvent pourtant, les sites Web proposent une structure assez classique, avec un en-tête et un pied de page commun à l'ensemble du site, et un contenu principal, qui change d'une page à l'autre.
    
-   Depuis `html 5` existent les balises `header` et `footer` qui permettent de réaliser cela. L'en-tête comprendra le plus souvent le titre principale du site Web, ainsi qu'en général son soustitre. Le menu (`<nav></nav>`) est souvent inséré dans cette partie, mais ce n'est pas une obligation.
+   Depuis `html 5`, les balises `header` et `footer` permettent de réaliser cela. L'en-tête comprendra le plus souvent le titre principal du site Web, ainsi qu'en général son soutitre. Le menu (`<nav></nav>`) est souvent inséré dans cette partie, mais ce n'est pas une obligation.
 
    Tout au sommet du contenu visible de la page `index.html`, à savoir tout de suite après la balise ouvrante du `body`, insérez l'en-tête suivant (que vous pouvez adapter librement) :
 
@@ -61,7 +61,7 @@ Les formats d'images qui peuvent être insérés sont principalement le JPG, le 
 
 Pour l'exercice, utilisez le logo officiel du HTML 5^[Le HTML 5 est une recommandation du W3C depuis le 23 octobre 2014 : [http://www.w3.org/blog/news/archives/4167](http://www.w3.org/blog/news/archives/4167).], disponible sur *Wikipedia* : [https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg). Téléchargez le fichier SVG et enregistrez-le dans le dossier *images* du répertoire de votre site Web, **avec le nom logo.svg**.
 
-Entre la balise `<header>` et le titre principal du site Web, insérer une ligne avec le contenu suivant (ligne commençant par `<img...`) :
+Entre la balise `<header>` et le titre principal du site Web, insérez une ligne avec le contenu suivant (ligne commençant par `<img...`) :
 
 ```
 <header>
@@ -77,14 +77,14 @@ Puis insérez le pied de page, que vous pouvez également modifier librement, à
 
 ```
 <footer>
-	<small>Ce site est sous licence <a href="http://copyheart.org/" title="Site de la licence Copyheart"><em>♡ Copyheart</em></a>.</small>
+	<small>Ce site est sous licence <a href="http://copyheart.org/" title="Site de la licence Copyheart"><em>Copyheart</em></a>.</small>
 </footer>
 ```
 
-Ce `footer` contient un lien hypertext. Il s'agit de la balise `<a> ... </a>`. Celle-ci possède :
+Ce `footer` contient un lien hypertexte. Il s'agit de la balise `<a> ... </a>`. Celle-ci possède :
 
-   1. Un attribut **obligatoire**, `href=""`, dont la valeur est la cible du lien. Cette cible peut être un lien relatif, comme cela a été vu dans le cas de l'image du logo, ou un lien absolut, comme c'est le cas ici : d'où que l'on se situe la valeur `http://copyheart.org/` pointe toujours au même endroit.
-   2. Un attribut facultatif, mais fortement conseillé, `title=""`, dont la valeur est un texte bref informant le visiteur sur la nature du lien. Elle est particulièrement utile pour les visiteurs visuellement déficient, comme cela sera vu lors d'un cours sur l'accessibilité.
+   1. Un attribut **obligatoire**, `href=""`, dont la valeur est la cible du lien. Cette cible peut être un lien relatif, comme cela a été vu dans le cas de l'image du logo, ou un lien absolu, comme c'est le cas ici : d'où que l'on se situe, la valeur `http://copyheart.org/` pointe toujours au même endroit.
+   2. Un attribut facultatif, mais fortement conseillé, `title=""`, dont la valeur est un texte bref informant le visiteur sur la nature du lien. Elle est particulièrement utile pour les visiteurs visuellement déficients, comme cela sera vu lors d'un cours sur l'accessibilité.
 
 ### `<article>` comme contenant principal | 2 min.
 
@@ -96,7 +96,7 @@ Ce `footer` contient un lien hypertext. Il s'agit de la balise `<a> ... </a>`. C
    <article class="container">
    ```
 
-   Fermez cette balise juste avant le `footer`, afin d'imbriquer l'essentiel du contendu de la page Web dans la balise `<article>`.
+   Fermez cette balise juste avant le `footer`, afin d'imbriquer l'essentiel du contenu de la page Web dans la balise `<article>`.
 
 ### Le menu | 12 min.
 
@@ -131,7 +131,8 @@ Réalisez la page `apropos.html`. Celle-ci doit contenir :
    * La déclaration.
    * La structure de base : `html`, `head` et le `body`, avec les adaptations nécessaires.
    * Un body comprenant le `header`, le `footer`, le `nav` et le contenu principal.
+   * Essayez de rendre le logo de l'en-tête cliquable. Il doit pointer vers la page d'accueil.
    * Le contenu principal doit avoir au moins 2 niveau de titre et 2 paragraphes.
-   * Essayer d'insérer au moins une image (en format JPG ou PNG), ainsi qu'un lien externe (en plus des liens existants dans le menu).
+   * Essayez d'insérer au moins une image (en format JPG ou PNG), ainsi qu'un lien externe (en plus des liens existants dans le menu).
 
 Soyez également attentifs à enregistrer votre page `apropos.html` de manière à ce que le lien du menu fonctionne correctement, et inversement.
