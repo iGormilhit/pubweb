@@ -1,0 +1,20 @@
+---
+title: Programme de la semaine 2
+author: iGor
+date: 2015-02-04
+tags: pubweb, atelier, session 2, programme 
+---
+
+# Semaine 3 | 2015-03-04
+
+## Théorique | 45 min.
+
+## Atelier : introduction aux feuilles de styles | 45 min.
+
+   - Corrigé du devoir [https://github.com/iGormilhit/pubweb-skeleton/releases/tag/v.0.2.5](https://github.com/iGormilhit/pubweb-skeleton/releases/tag/v.0.2.5)
+   - Retour au `head`, et aux `link` (fonts -- gr2 voir http --, css)
+   - Deux fichiers CSS + un troisième pour le print
+   - Ouverture d'un fichier CSS
+   - Commentaire : `/* */`
+   - syntaxe de base : `selecteur {paramètre: valeur;}`
+   - sélecteurs

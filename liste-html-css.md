@@ -25,7 +25,7 @@ Il s'agit dans ce document de lister les points qui *étaient* abordés dans les
 ## `css`
 
    * en cascades : différentes feuilles et hiérarchie
-   * les priorité et `!important`
+   * les priorités et `!important`
    * lien `html` → `css`
    * syntaxe de base
    * sélecteurs : balise, classe, identifiant, pseudo-classes, composé

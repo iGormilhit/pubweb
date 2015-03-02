@@ -5,7 +5,7 @@ date: 2015-02-04
 tags: pubweb, atelier, session 2, programme 
 ---
 
-# Semaine 1 | 2015-02-25
+# Semaine 2 | 2015-02-25
 
 ## Théorique | 45 min.
 
