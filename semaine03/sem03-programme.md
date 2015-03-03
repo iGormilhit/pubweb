@@ -1,8 +1,8 @@
 ---
-title: Programme de la semaine 2
+title: Programme de la semaine 3
 author: iGor
-date: 2015-02-04
-tags: pubweb, atelier, session 2, programme 
+date: 2015-03-02
+tags: pubweb, atelier, session 3, programme 
 ---
 
 # Semaine 3 | 2015-03-04
@@ -17,4 +17,5 @@ tags: pubweb, atelier, session 2, programme
    - Ouverture d'un fichier CSS
    - Commentaire : `/* */`
    - syntaxe de base : `selecteur {paramètre: valeur;}`
-   - sélecteurs
+   - sélecteurs : balise, classe, identifiant
+   - outils de dev de FF : `ctrl+i` et ctrl+m`
