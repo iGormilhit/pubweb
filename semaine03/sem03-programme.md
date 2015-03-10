@@ -17,5 +17,4 @@ tags: pubweb, atelier, session 3, programme
    - Ouverture d'un fichier CSS
    - Commentaire : `/* */`
    - syntaxe de base : `selecteur {paramètre: valeur;}`
-   - sélecteurs : balise, classe, identifiant
-   - outils de dev de FF : `ctrl+i` et ctrl+m`
+   - sélecteurs : balise, identifiant

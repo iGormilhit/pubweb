@@ -42,21 +42,23 @@ Nous disposons de 15 semaines :
 
    __Théorie__ : ...
 
-   __Pratique__ : Exploration du CSS. Notions de cascades. Liens vers les feuilles de styles et favicon. Syntaxe de base. Commentaires. Les sélecteurs, en pratique. Découverte des fonctionnalités *Skeleton*  comme les classes de colonnes, les _utilities_, les bouttons, etc. 
+   __Pratique__ : Exploration du CSS. Notions de cascades. Liens vers les feuilles de styles. Commentaires. Syntaxe de base. Les sélecteurs, en pratique.
 
 ## semaine 4 | 2015-03-11
    
    __Théorie__ : ...
    
-   __Pratique__ : Listes ordonnées, numérotées, tables, formulaires
+   __Pratique__ : Reprise partie sélecteurs semaine 03. Outils de dev. Fonctions de Skeleton.
 
 ## semaine 5 | 2015-03-18
    
    __Théorie__ : ...
    
-   __Pratique__ : ... 
+   __Pratique__ : tables, formulaires
 
 ## semaine 6 | 2015-03-25
 
    * Mise en forme d'un menu déroulant.
+
+## semaine 7 | 2015-04-01
 
